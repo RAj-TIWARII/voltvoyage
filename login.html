@@ -110,12 +110,21 @@
             <label for="password">PASSWORD</label>
             <input type="password" id="password" name="password" required>
         </div>
-        <button type="submit">Login</button>
+        <button type="submit" onclick="login()">Login</button>
         <div class="create-account-text">
             <p>Don't have an account? <a href="index.html">Create one.</a></p>
         </div>
     </div>
 </div>
+
+<script>
+    function login() {
+        // Perform login process here (validate credentials, etc.)
+
+        // Redirect to home page after successful login
+        window.location.href = "home.html";
+    }
+</script>
 
 </body>
 </html>
