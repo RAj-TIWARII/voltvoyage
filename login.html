@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #00FFFF; /* Cyan color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .login-container {
+        display: flex;
+        max-width: 800px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-image {
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .login-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .login-form {
+        flex: 1;
+        padding: 40px;
+    }
+
+    .login-form h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .input-group {
+        margin-bottom: 20px;
+    }
+
+    .input-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .input-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .create-account-text {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .create-account-text a {
+        color: #0000FF; /* Blue color */
+        text-decoration: none;
+    }
+
+    .create-account-text a:hover {
+        text-decoration: underline;
+    }
+
+    button[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #00FFFF; /* Cyan color */
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #008080; /* Darker cyan color on hover */
+    }
+</style>
+</head>
+<body>
+
+<div class="login-container">
+    <div class="login-image">
+        <img src="https://cdn.discordapp.com/attachments/852854071026647071/1140721180475670579/20230815_002824.jpg?ex=6626b363&is=66143e63&hm=4fb7bf36531c88812ad7138a5d6ffba16d5f297a6b62f2ddce65465f6de52f63" alt="Login Image">
+    </div>
+    <div class="login-form">
+        <h2>Login</h2>
+        <div class="input-group">
+            <label for="username">USER</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Login</button>
+        <div class="create-account-text">
+            <p>Don't have an account? <a href="index.html">Create one.</a></p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
