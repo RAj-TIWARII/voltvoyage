@@ -17,9 +17,9 @@
     }
 
     .container {
-        width: 80%; /* Adjust width as needed */
-        max-width: 500px; /* Set max-width to prevent container from becoming too wide on larger screens */
-        margin: 10% auto; /* Center container vertically and horizontally */
+        width: 80%;
+        max-width: 500px;
+        margin: 10% auto;
         background-color: #b6b6b62d;
         border-radius: 8px;
         padding: 40px;
@@ -90,8 +90,8 @@
     button[type="submit"] {
         display: block;
         width: 100%;
-        padding: 11px 10px; /* Increase padding for larger button */
-        font-size: 14px; /* Increase font size for larger button */
+        padding: 11px 10px;
+        font-size: 14px;
         background-color: #3a6988;
         color: #fbfcff;
         border: none;
@@ -153,12 +153,8 @@
     }
 
     .login-link a {
-        color: #1ebee6;
+        color: #3a6988;
         text-decoration: none;
-    }
-
-    .login-link a:hover {
-        text-decoration: underline;
     }
 </style>
 </head>
@@ -185,7 +181,7 @@
     </div>
     <button type="submit">Sign Up</button>
     <div class="login-link">
-        <p>Already have an account? <a href="login.html">Login</a></p>
+        Already have an account? <a href="login.html">Login</a>
     </div>
 </div>
 
@@ -226,6 +222,11 @@
         } else {
             passwordWarning.textContent = '';
         }
+    });
+
+    // Redirect to login page after signup
+    document.querySelector('button[type="submit"]').addEventListener('click', function() {
+        window.location.href = 'login.html';
     });
 </script>
 
