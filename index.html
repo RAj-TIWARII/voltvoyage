@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOLTVOYAGE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">VOLTVOYAGE</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#upcoming-events">Upcoming Events</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="background"></div>
+        <div class="overlay"></div>
+        <div class="title-container">
+            <h1>VOLTVOYAGE</h1>
+            <p class="quote"></p>
+        </div>
+    </section>
+
+    <section id="upcoming-events" class="section">
+        <div class="content">
+            <h2>Upcoming Events</h2>
+            <div class="event-frame">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Mrm7669_Launch_of_SSLV-D1_from_Satish_Dhawan_FLP.jpg/220px-Mrm7669_Launch_of_SSLV-D1_from_Satish_Dhawan_FLP.jpg" alt="ISRO Launch">
+                <p><a href="https://www.isro.gov.in/" target="_blank">ISRO</a></p>
+                <div class="live-event">
+                    <img class="live-icon" src="https://img.icons8.com/ios/50/000000/live-event.png" alt="Live Event Icon">
+                    <a href="https://www.isro.gov.in/" target="_blank"><span>Click here for ISRO live and upcoming events</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="technology" class="section">
+        <div class="content">
+            <h2>Technology</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis metus in neque facilisis, non laoreet tortor tristique. Duis malesuada placerat nulla, ut interdum felis dignissim eget.</p>
+            <p>Nam aliquet, nisl ut vehicula pulvinar, enim nisl volutpat elit, eget mollis nunc enim sit amet urna. Vivamus tincidunt mi ac turpis hendrerit, nec aliquet ex consequat. Proin sit amet nisl felis. Fusce aliquam risus arcu, id venenatis lectus dictum ac. Suspendisse potenti. Mauris volutpat, risus nec convallis egestas, ligula justo fringilla est, eget varius nulla erat et erat.</p>
+            <p>Pellentesque vehicula sit amet velit at aliquam. In hac habitasse platea dictumst. Aenean vitae ligula nec enim lacinia interdum. Phasellus a tempor urna. Duis vel libero eu tortor condimentum consectetur.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <div class="content">
+            <h2>Gallery</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan orci sit amet ligula malesuada, id tempor urna dictum. Quisque et diam et turpis gravida semper non vel dolor.</p>
+            <p>Sed at metus in sem tincidunt venenatis. Proin accumsan nunc nec libero ullamcorper, a fringilla dolor laoreet. Ut at cursus velit. Phasellus fringilla auctor justo, nec sollicitudin erat blandit in.</p>
+            <p>Etiam in quam at quam fermentum suscipit. Mauris convallis, felis id lacinia posuere, enim est varius velit, et dictum dui libero ut turpis. Praesent eget lacus at ligula consequat dignissim. Cras in eros sit amet mi elementum pharetra ac non justo.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <form id="contactForm" method="post" action="sendFeedback.php">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 VOLTVOYAGE. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
