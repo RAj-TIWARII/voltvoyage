@@ -6,7 +6,8 @@ burger.addEventListener('click', () => {
     nav.classList.toggle('active');
 });
 
-// Typing and Deleting Animation for Quotes
+// Typing and Deleting Animation for Quotes at the property server 
+
 const quotes = [
     "Exploring the Final Frontier",
     "Innovation in Space Technology",
