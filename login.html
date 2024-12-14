@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VOLTVOYAGE | Log in </title>
+    <title>Responsive Login</title>
     <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
 </head>
 <body>
-    <div class="imgcontainer">
-    <div class="logincontainer">
-hh
-    </div>
-	        <div class="loginbox">
-            <img src="loginicongif.gif" style="width: 160px; margin-left: 120px; margin-top: -40px;">
-            <input type="text" id="username" placeholder="  Username"> <br> <br>
-            <input type="password" id="password" placeholder="  Password">
+    <div class="container">
+        <div class="image-container">
+            <img src="StarshipLoginimg.jpeg" alt="Starship" />
         </div>
-	
-	</div>
+        <div class="login-box">
+            <h2> <i class="ri-planet-fill"></i> Login</h2>
+            <div class="input-field">
+                <input type="text" id="username" required>
+                <label for="username">Username or Email</label>
+            </div>
+            <div class="input-field">
+                <input type="password" id="password" required>
+                <label for="password">Password</label>
+            </div>
+            <button>Login</button>
+            <hr>
+            <div class="signup-section">
+                Don’t have an account? <a href="#">Sign up</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
