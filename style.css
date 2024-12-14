@@ -133,6 +133,7 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
+        height: 100%;
         flex-direction: column;
     }
 
