@@ -83,7 +83,7 @@ body {
 
 .input-field input:focus + label,
 .input-field input:valid + label {
-    top: -10px;
+    top: -15px;
     left: 10px;
     color: #00c6ff;
     font-size: 12px;
